@@ -1,6 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
 
+.logo-img img {
+    width: 150px;
+    height: auto;
+}
+
+.footer_logo {
+    height: 120px;
+    width: auto;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+
+/*.about_thumb img {
+    width: 300px;
+    height: auto;
+}*/
+
 .flex-center-start {
     display          : -webkit-box;
     display          : -ms-flexbox;
@@ -398,7 +415,6 @@ h3 {
     font-size     : 14px;
     color         : #009DFF;
     border        : 1px solid #009DFF;
-    text-transform: capitalize;
     padding       : 10px 25px
 }
 
@@ -846,7 +862,7 @@ h3 {
 }
 
 .header-area .main-header-area.sticky {
-    box-shadow        : 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    box-shadow        : 0px 3px 16px 0px #505050;
     position          : fixed;
     width             : 100%;
     top               : -70px;
@@ -856,9 +872,9 @@ h3 {
     transform         : translateY(70px);
     transition        : transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
-    box-shadow        : 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    box-shadow        : 0px 3px 16px 0px #505050;
     padding           : 10px 150px;
-    background        : #000
+    background        : #505050;
 }
 
 @media (max-width: 767px) {
@@ -890,11 +906,11 @@ h3 {
 }
 
 .slider_bg_1 {
-    background-image: url(../img/banner/banner.png)
+    background-image: url(../img/banner/amphi.jpg)
 }
 
 .slider_bg_2 {
-    background-image: url(../img/banner/banner2.png)
+    background-image: url(../img/banner/amphi2.jpg)
 }
 
 .slider_area .single_slider {
