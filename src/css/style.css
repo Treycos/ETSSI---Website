@@ -680,17 +680,18 @@ h3 {
     -ms-flex-pack          : flex-end
 }
 
-.header-area .main-header-area .book_room .socail_links ul li {
+.header-area .main-header-area .book_room .social_links ul li {
     display: inline-block
 }
 
-.header-area .main-header-area .book_room .socail_links ul li a {
+.header-area .main-header-area .book_room .social_links ul li a {
     color    : #A8A7A0;
     margin   : 0 10px;
-    font-size: 15px
+    font-size: 26px;
+    text-shadow : 0 0 1px #000;
 }
 
-.header-area .main-header-area .book_room .socail_links ul li a:hover {
+.header-area .main-header-area .book_room .social_links ul li a:hover {
     color: #fff
 }
 
@@ -924,7 +925,8 @@ h3 {
     text-transform: capitalize;
     letter-spacing: 2px;
     font-weight   : 400;
-    margin-bottom : 4px
+    margin-bottom : 4px;
+    text-shadow   : 0 0 5px #333;
 }
 
 @media (max-width: 767px) {
@@ -952,7 +954,8 @@ h3 {
     font-weight  : 400;
     color        : #ffffff;
     margin-bottom: 0;
-    margin-top   : 0
+    margin-top   : 0;
+    text-shadow  : 0 0 10px black, 0 0 3px black;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1827,28 +1830,28 @@ h3 {
     color: #009DFF
 }
 
-.footer .copy-right_text .socail_links {
+.footer .copy-right_text .social_links {
     text-align: right
 }
 
 @media (max-width: 767px) {
-    .footer .copy-right_text .socail_links {
+    .footer .copy-right_text .social_links {
         text-align: center;
         margin-top: 30px
     }
 }
 
-.footer .copy-right_text .socail_links ul li {
+.footer .copy-right_text .social_links ul li {
     display: inline-block
 }
 
-.footer .copy-right_text .socail_links ul li a {
+.footer .copy-right_text .social_links ul li a {
     color    : #A8A7A0;
     margin   : 0 10px;
     font-size: 15px
 }
 
-.footer .copy-right_text .socail_links ul li a:hover {
+.footer .copy-right_text .social_links ul li a:hover {
     color: #fff
 }
 
