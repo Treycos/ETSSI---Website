@@ -750,6 +750,7 @@ h3 {
     padding       : 0px 0px 10px 0px;
     font-family   : "Raleway", sans-serif;
     position      : relative;
+    text-shadow   : 0 0 1px #000;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -2471,7 +2472,7 @@ h6 {
 }
 
 .genric-btn.disable {
-    color     : #222, 0.3;
+    color     : #222;
     background: #f9f9ff;
     border    : 1px solid transparent;
     cursor    : not-allowed

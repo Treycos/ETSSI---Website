@@ -259,7 +259,7 @@ dots:false,
   }
 });
 
-if (document.getElementById('default-select')) {
+if (document.querySelector('.default-select')) {
   $('select').niceSelect();
 }
 
