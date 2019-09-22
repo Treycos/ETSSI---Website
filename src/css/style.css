@@ -7,10 +7,14 @@
 }
 
 .footer_logo {
-    height: 120px;
-    width: auto;
-    margin-top: -40px;
+    width: 120px;
+    height: auto;
+    margin-top: -20px;
     margin-left: 10px;
+}
+
+.mapouter iframe {
+    width: 100%;
 }
 
 /*.about_thumb img {
@@ -286,7 +290,7 @@ h3 {
 
 .owl-carousel:hover .owl-nav div:hover {
     color     : #fff;
-    background: #009DFF
+    background: #de1818
 }
 
 .mb-20px {
@@ -302,18 +306,18 @@ h3 {
     font-size     : 14px;
     font-weight   : 400;
     border        : 0;
-    border        : 1px solid #009DFF;
+    border        : 1px solid #de1818;
     letter-spacing: 3px;
     text-align    : center;
-    color         : #009DFF !important;
+    color         : #de1818 !important;
     text-transform: uppercase;
     cursor        : pointer
 }
 
 .boxed-btn:hover {
-    background: #009DFF;
+    background: #de1818;
     color     : #fff !important;
-    border    : 1px solid #009DFF
+    border    : 1px solid #de1818
 }
 
 .boxed-btn:focus {
@@ -325,7 +329,7 @@ h3 {
 }
 
 .boxed-btn3 {
-    background        : #009DFF;
+    background        : #de1818;
     color             : #fff;
     display           : inline-block;
     padding           : 18px 44px;
@@ -333,7 +337,7 @@ h3 {
     font-size         : 14px;
     font-weight       : 400;
     border            : 0;
-    border            : 1px solid #009DFF;
+    border            : 1px solid #de1818;
     letter-spacing    : 3px;
     text-align        : center;
     color             : #fff !important;
@@ -347,8 +351,8 @@ h3 {
 
 .boxed-btn3:hover {
     background: #fff;
-    color     : #009DFF !important;
-    border    : 1px solid #009DFF
+    color     : #de1818 !important;
+    border    : 1px solid #de1818
 }
 
 .boxed-btn3:focus {
@@ -403,28 +407,28 @@ h3 {
 }
 
 .line-button:hover {
-    color: #009DFF
+    color: #de1818
 }
 
 .line-button:hover::before {
-    background: #009DFF
+    background: #de1818
 }
 
 .book_now {
     display       : inline-block;
     font-size     : 14px;
-    color         : #009DFF;
-    border        : 1px solid #009DFF;
+    color         : #de1818;
+    border        : 1px solid #de1818;
     padding       : 10px 25px
 }
 
 .book_now:hover {
-    background: #009DFF;
+    background: #de1818;
     color     : #fff
 }
 
 .section_title span, .single_offers span {
-    color        : #009DFF;
+    color        : #de1818;
     font-size    : 14px;
     font-weight  : 400;
     margin-bottom: 15px;
@@ -473,7 +477,7 @@ h3 {
         position: absolute;
         right   : 0px;
         width   : 100%;
-        z-index : 9
+        z-index : 9;
     }
 }
 
@@ -495,11 +499,11 @@ h3 {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color     : #009DFF
+    color     : #de1818
 }
 
 .slicknav_menu .slicknav_nav a.active {
-    color: #009DFF
+    color: #de1818
 }
 
 @media (max-width: 767px) {
@@ -586,7 +590,8 @@ h3 {
     width      : 100%;
     top        : 0;
     z-index    : 9;
-    padding-top: 28px
+    padding-top: 28px;
+    background: #00000050;
 }
 
 @media (max-width: 767px) {
@@ -700,7 +705,7 @@ h3 {
 }
 
 .header-area .main-header-area .book_room .book_btn a {
-    background : #009DFF;
+    background : #de1818;
     padding    : 12px 26px;
     font-size  : 14px;
     font-weight: 400;
@@ -710,8 +715,8 @@ h3 {
 
 .header-area .main-header-area .book_room .book_btn a:hover {
     background: #fff;
-    color     : #009DFF;
-    border    : 1px solid #009DFF
+    color     : #de1818;
+    border    : 1px solid #de1818;
 }
 
 .header-area .main-header-area .main-menu {
@@ -861,7 +866,7 @@ h3 {
 }
 
 .header-area .main-header-area.sticky {
-    box-shadow        : 0px 3px 16px 0px #505050;
+    box-shadow        : 0px 3px 16px 0px #000;
     position          : fixed;
     width             : 100%;
     top               : -70px;
@@ -871,9 +876,9 @@ h3 {
     transform         : translateY(70px);
     transition        : transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
-    box-shadow        : 0px 3px 16px 0px #505050;
+    box-shadow        : 0px 3px 16px 0px #000;
     padding           : 10px 150px;
-    background        : #505050;
+    background        : #000;
 }
 
 @media (max-width: 767px) {
@@ -909,7 +914,15 @@ h3 {
 }
 
 .slider_bg_2 {
+    background-image: url(../img/banner/campus2.jpg)
+}
+
+.slider_bg_3 {
     background-image: url(../img/banner/amphi2.jpg)
+}
+
+.slider_bg_4 {
+    background-image: url(../img/banner/campus1.png)
 }
 
 .slider_area .single_slider {
@@ -1254,7 +1267,6 @@ h3 {
     color       : #4D4D4D;
     line-height : 28px;
     position    : relative;
-    z-index     : 9;
     padding-left: 23px
 }
 
@@ -1334,7 +1346,7 @@ h3 {
     background           : #fff;
     line-height          : 60px;
     font-size            : 15px;
-    color                : #009DFF;
+    color                : #de1818;
     display              : inline-block;
     -webkit-border-radius: 50%;
     -moz-border-radius   : 50%;
@@ -1366,7 +1378,7 @@ h3 {
 
 .features_room .rooms_here .single_rooms {
     position: relative;
-    width   : 50%;
+    width   : 20%;
     float   : left
 }
 
@@ -1467,7 +1479,7 @@ h3 {
 }
 
 .features_room .rooms_here .single_rooms .room_thumb .room_heading a:hover {
-    color: #009DFF
+    color: #de1818
 }
 
 .features_room .rooms_here .single_rooms:hover img {
@@ -1563,7 +1575,7 @@ h3 {
 }
 
 .forQuery .Query_border .phone_num a {
-    background   : #009DFF;
+    background   : #de1818;
     color        : #fff;
     padding      : 12px 53px;
     border-radius: 30px;
@@ -1573,8 +1585,8 @@ h3 {
 }
 
 .forQuery .Query_border .phone_num a:hover {
-    color     : #009DFF;
-    border    : 1px solid #009DFF;
+    color     : #de1818;
+    border    : 1px solid #de1818;
     background: #fff
 }
 
@@ -1762,7 +1774,7 @@ h3 {
 }
 
 .footer .footer_top .footer_widget ul li a:hover {
-    color: #009DFF
+    color: #de1818
 }
 
 .footer .footer_top .footer_widget .newsletter_form {
@@ -1793,7 +1805,7 @@ h3 {
     border    : none;
     font-size : 14px;
     color     : #fff;
-    background: #009DFF;
+    background: #de1818;
     padding   : 10px;
     padding   : 0 22px;
     cursor    : pointer
@@ -1827,7 +1839,7 @@ h3 {
 }
 
 .footer .copy-right_text .copy_right a {
-    color: #009DFF
+    color: #de1818
 }
 
 .footer .copy-right_text .social_links {
@@ -3309,7 +3321,7 @@ h6 {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background             : -webkit-linear-gradient(131deg, #009DFF 0%, #009DFF 99%);
+    background             : -webkit-linear-gradient(131deg, #de1818 0%, #de1818 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration        : none;
@@ -3739,7 +3751,7 @@ h6 {
 }
 
 .blog_details a:hover {
-    color: #009DFF
+    color: #de1818
 }
 
 .blog_details h2 {
@@ -3797,7 +3809,7 @@ h6 {
     left            : 10px;
     display         : block;
     color           : #fff;
-    background-color: #009DFF;
+    background-color: #de1818;
     padding         : 8px 15px;
     border-radius   : 5px
 }
@@ -3993,7 +4005,7 @@ h6 {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background             : #009DFF;
+    background             : #de1818;
     color                  : #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration        : none;
@@ -4204,7 +4216,7 @@ h6 {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #009DFF
+    color: #de1818
 }
 
 .single-post-area .blog-author p {
@@ -4564,7 +4576,7 @@ h6 {
 }
 
 .blog_part .single-home-blog .card .card-body a {
-    color             : #009DFF;
+    color             : #de1818;
     text-transform    : uppercase;
     -webkit-transition: .8s;
     transition        : .8s
@@ -4588,7 +4600,7 @@ h6 {
     height          : 10px;
     top             : 5px;
     left            : 0;
-    background-color: #009DFF;
+    background-color: #de1818;
     border-radius   : 50%
 }
 
