@@ -318,42 +318,12 @@
 
     <!--Google maps-->
     <div class="mapouter container">
-        <div id="gmap_canvas" style="width:763px; height: 500px">
+        <div id="gmap_canvas" style="width:100%; height: 500px">
             <!--<iframe width="763" height="500" id="gmap_canvas"
                 src="https://maps.google.com/maps?q=Campus%20CESI%20Boulevard%20de%20l'Universit%C3%A9,%2044600%20Saint-Nazaire&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
         </div>
     </div>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA2Fn_yQmqUJMqKd-CmyMC93zTWzNXDsk"></script>
-    <script>
-        var geocoder, map;
-
-        function displayMap ()
-        {
-            geocoder = new google.maps.Geocoder();
-            geocoder.geocode({
-                'address': "Campus CESI Saint-Nazaire"
-            }, function(results, status) {
-                if (status == google.maps.GeocoderStatus.OK)
-                {
-                    var myOptions = {
-                        zoom: 8,
-                        center: results[0].geometry.location,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    }
-                    map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-
-                    var marker = new google.maps.Marker({
-                        map: map,
-                        position: results[0].geometry.location
-                    });
-                }
-            });
-        }
-
-        displayMap();
-    </script>
 
     <div class="sponsors">
         <div class="container">
@@ -637,6 +607,36 @@
     <!-- form itself end -->
 
     <!-- JS here -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA2Fn_yQmqUJMqKd-CmyMC93zTWzNXDsk"></script>
+    <script>
+        var geocoder, map;
+
+        function displayMap ()
+        {
+            geocoder = new google.maps.Geocoder();
+            geocoder.geocode({
+                'address': "Campus CESI Boulevard de l'Université, 44600 Saint-Nazaire"
+            }, function(results, status) {
+                if (status == google.maps.GeocoderStatus.OK)
+                {
+                    var myOptions = {
+                        zoom: 13,
+                        center: results[0].geometry.location,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    }
+                    map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location
+                    });
+                }
+            });
+        }
+
+        displayMap();
+    </script>
+
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
