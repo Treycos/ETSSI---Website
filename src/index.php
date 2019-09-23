@@ -138,6 +138,18 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text text-center">
                                 <h3>Exia Conférence</h3>
                                 <p>C'est pas terrible, mais c'est parce qu'on a pas trop les moyens</p>
                             </div>
@@ -145,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_4">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_5">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -340,7 +352,7 @@
         <div class="rooms_here">
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/gens/Maxime.jpg" alt="">
+                    <img src="img/gens/Maxime_optimized.jpg" alt="">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>Fait des memes de merde</span>
@@ -352,7 +364,7 @@
             </div>
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/gens/louis drogué.jpg" alt="">
+                    <img src="img/gens/louis drogue_optimized.jpg" alt="">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>Un ptit McDo ?</span>
@@ -388,7 +400,7 @@
             </div>
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/gens/axel bourré.jpg" alt="">
+                    <img src="img/gens/axel bourre_optimized.jpg" alt="">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>En cours de réveil</span>
@@ -475,7 +487,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="img/memes/Gru cctl.png" alt="">
+            <img src="img/memes/Gru cctl_optimized.jpg" alt="">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
