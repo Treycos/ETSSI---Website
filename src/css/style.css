@@ -919,10 +919,14 @@ h3 {
 }
 
 .slider_bg_3 {
-    background-image: url(../img/banner/amphi2.jpg)
+    background-image: url(../img/memes/ects.png)
 }
 
 .slider_bg_4 {
+    background-image: url(../img/banner/amphi2.jpg)
+}
+
+.slider_bg_5 {
     background-image: url(../img/banner/campus1.png)
 }
 
