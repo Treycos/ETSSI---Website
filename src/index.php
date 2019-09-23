@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/html; charset=utf-8'); ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -137,18 +138,6 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text text-center">
                                 <h3>Exia Conférence</h3>
                                 <p>C'est pas terrible, mais c'est parce qu'on a pas trop les moyens</p>
                             </div>
@@ -156,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_5">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_4">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
