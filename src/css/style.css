@@ -4,7 +4,7 @@
 }
 
 .footer_logo {
-    width: 120px;
+    width: 100px;
     height: auto;
     margin-top: -20px;
     margin-left: 10px;
@@ -1818,16 +1818,16 @@ h3 {
     color    : #BABABA
 }
 
-.footer .copy-right_text {
+.footer {
     padding-bottom: 30px
 }
 
-.footer .copy-right_text .footer_border {
+.footer .footer_border {
     border-top    : 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 30px
 }
 
-.footer .copy-right_text .copy_right {
+.footer {
     font-size    : 16px;
     color        : #919191;
     margin-bottom: 0;
@@ -1835,50 +1835,50 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .footer .copy-right_text .copy_right {
-        font-size: 14px
+    .footer {
+        font-size: 14px;
     }
 }
 
-.footer .copy-right_text .copy_right a {
-    color: #de1818
+.footer a {
+    color: #de1818;
 }
 
-.footer .copy-right_text .social_links {
-    text-align: right
+.footer .social_links {
+    text-align: right;
 }
 
 @media (max-width: 767px) {
-    .footer .copy-right_text .social_links {
+    .footer .social_links {
         text-align: center;
-        margin-top: 30px
+        margin-top: 30px;
     }
 }
 
-.footer .copy-right_text .social_links ul li {
-    display: inline-block
+.footer .social_links ul li {
+    display: inline-block;
 }
 
-.footer .copy-right_text .social_links ul li a {
+.footer .social_links ul li a {
     color    : #A8A7A0;
     margin   : 0 10px;
-    font-size: 15px
+    font-size: 20px;
 }
 
-.footer .copy-right_text .social_links ul li a:hover {
-    color: #fff
+.footer .social_links ul li a:hover {
+    color: #fff;
 }
 
 .breadcam_bg {
-    background-image: url(../img/banner/bradcam.png)
+    background-image: url(../img/banner/bradcam.png);
 }
 
 .breadcam_bg_1 {
-    background-image: url(../img/banner/bradcam2.png)
+    background-image: url(../img/banner/bradcam2.png);
 }
 
 .breadcam_bg_2 {
-    background-image: url(../img/banner/bradcam3.png)
+    background-image: url(../img/banner/bradcam3.png);
 }
 
 .bradcam_area {
