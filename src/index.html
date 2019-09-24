@@ -4,7 +4,7 @@
 <head>
     <!--<meta charset="utf-8">-->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Exia Conférence</title>
+    <title>Exia Conférence - l'informatique du futur</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -60,7 +60,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="img/logo_carre_rouge_tp_white.png" alt="">
+                                    <img src="img/logo_carre_rouge_tp_white_optimized.png" alt="logo exia conférence">
                                 </a>
                             </div>
                         </div>
@@ -220,7 +220,7 @@
                     <div class="single_offers">
                         <span>9H00</span>
                         <div class="about_thumb">
-                            <img src="img/offers/Cloud_optimized.jpg" alt="">
+                            <img src="img/offers/Cloud_optimized.jpg" alt="cloud informatique">
                         </div>
                         <h3>L'externalisation du système d'information <br>
                         </h3>
@@ -236,7 +236,7 @@
                     <div class="single_offers">
                         <span>9H45</span>
                         <div class="about_thumb">
-                            <img src="img/offers/Privacy_optimized.jpg" alt="">
+                            <img src="img/offers/Privacy_optimized.jpg" alt="vie privé sur internet">
                         </div>
                         <h3>La protection des données personnelles <br>
                         </h3>
@@ -252,7 +252,7 @@
                     <div class="single_offers">
                         <span>10H30</span>
                         <div class="about_thumb">
-                            <img src="img/offers/FullAI_optimized.jpg" alt="">
+                            <img src="img/offers/FullAI_optimized.jpg" alt="intelligence artificielle">
                         </div>
                         <h3>L'intelligence artificielle <br>
                         </h3>
@@ -318,9 +318,10 @@
 
     <!--Google maps-->
     <div class="mapouter container">
-        <div class="gmap_canvas"><iframe width="763" height="500" id="gmap_canvas"
-            src="https://maps.google.com/maps?q=Campus%20CESI%20Boulevard%20de%20l'Universit%C3%A9,%2044600%20Saint-Nazaire&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div id="gmap_canvas" style="width:100%; height: 500px">
+            <!--<iframe width="763" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Campus%20CESI%20Boulevard%20de%20l'Universit%C3%A9,%2044600%20Saint-Nazaire&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
         </div>
     </div>
 
@@ -580,7 +581,7 @@
                         <img class="footer_logo" src="img/logo_carre_rouge_tp_white.png" alt="">
                     </div>
                     <div class="col-xl-4 col-md-5 col-lg-3">
-                        <div class="social_links">
+                        <div class="socail_links">
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/lexiaconference/">
@@ -618,6 +619,36 @@
     <!-- form itself end -->
 
     <!-- JS here -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA2Fn_yQmqUJMqKd-CmyMC93zTWzNXDsk"></script>
+    <script>
+        var geocoder, map;
+
+        function displayMap ()
+        {
+            geocoder = new google.maps.Geocoder();
+            geocoder.geocode({
+                'address': "Campus CESI Boulevard de l'Université, 44600 Saint-Nazaire"
+            }, function(results, status) {
+                if (status == google.maps.GeocoderStatus.OK)
+                {
+                    var myOptions = {
+                        zoom: 13,
+                        center: results[0].geometry.location,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    }
+                    map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location
+                    });
+                }
+            });
+        }
+
+        displayMap();
+    </script>
+
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
