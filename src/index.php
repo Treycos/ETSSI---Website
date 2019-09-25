@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/html; charset=utf-8'); ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -59,7 +60,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="img/logo_carre_rouge_tp_white_optimized.png" alt="logo exia conférence">
                                 </a>
                             </div>
@@ -531,9 +532,9 @@
                                 Navigation
                             </h3>
                             <ul>
-                                <li><a href="index.html">Cloud</a></li>
-                                <li><a href="index.html">Protection</a></li>
-                                <li><a href="index.html">IA</a></li>
+                                <li><a href="index.php">Cloud</a></li>
+                                <li><a href="index.php">Protection</a></li>
+                                <li><a href="index.php">IA</a></li>
                                 <li><a href="contact.html">Nous contacter</a></li>
                             </ul>
                         </div>

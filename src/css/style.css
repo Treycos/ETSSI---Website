@@ -1376,16 +1376,17 @@ h3 {
 
 .features_room .rooms_here .single_rooms {
     position: relative;
-    width   : 20%;
-    float   : left
+    float   : left;
+    max-height: 300px;
+    overflow: hidden;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .features_room .rooms_here .single_rooms {
         width        : 100%;
         margin-bottom: 30px
     }
-}
+}*/
 
 .features_room .rooms_here .single_rooms::before {
     position  : absolute;
@@ -1409,7 +1410,6 @@ h3 {
 }
 
 .features_room .rooms_here .single_rooms .room_thumb img {
-    width             : 100%;
     -webkit-transform : scale(1);
     -moz-transform    : scale(1);
     -ms-transform     : scale(1);
@@ -1417,7 +1417,10 @@ h3 {
     -webkit-transition: .5s;
     -moz-transition   : .5s;
     -o-transition     : .5s;
-    transition        : .5s
+    transition        : .5s;
+    height            : 300px;
+    max-width         : 300px;
+    object-fit        : cover;
 }
 
 .features_room .rooms_here .single_rooms .room_thumb .room_heading {
