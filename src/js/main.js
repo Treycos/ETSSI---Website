@@ -118,15 +118,6 @@ autoplaySpeed: 800,
 });
 
 // for filter
-  // init Isotope
-  var $grid = $('.grid').isotope({
-    itemSelector: '.grid-item',
-    percentPosition: true,
-    masonry: {
-      // use outer width of grid-sizer for columnWidth
-      columnWidth: 1
-    }
-  });
 
   // filter items on button click
   $('.portfolio-menu').on('click', 'button', function () {
@@ -317,13 +308,6 @@ $(document).ready(function() {
 	});
 });
 
-
-
-//------- Mailchimp js --------//  
-function mailChimp() {
-  $('#mc_embed_signup').find('form').ajaxChimp();
-}
-mailChimp();
 
 
 

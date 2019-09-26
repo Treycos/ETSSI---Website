@@ -908,15 +908,15 @@ h3 {
 }
 
 .slider_bg_1 {
-    background-image: url(../img/banner/amphi_optimized.jpg)
+    background-image: url(../img/banner/amphi.jpg)
 }
 
 .slider_bg_2 {
-    background-image: url(../img/banner/campus2_optimized.jpg)
+    background-image: url(../img/banner/campus3.jpg)
 }
 
 .slider_bg_3 {
-    background-image: url(../img/banner/campus1_optimized.jpg)
+    background-image: url(../img/banner/campus11.jpg)
 }
 
 .slider_bg_4 {
@@ -1401,7 +1401,7 @@ h3 {
     background: linear-gradient(to bottom, #fff 0%, #000 77%);
     filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=0);
     z-index   : 1;
-    opacity   : .5
+    opacity   : 0;
 }
 
 .features_room .rooms_here .single_rooms .room_thumb {
@@ -1446,6 +1446,7 @@ h3 {
 .features_room .rooms_here .single_rooms .room_thumb .room_heading span {
     font-size    : 14px;
     color        : #FFFFFF;
+    text-shadow: 0 0 3px black;
     margin-bottom: 9px;
     display      : block;
     position     : relative;
