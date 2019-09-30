@@ -373,7 +373,7 @@
             </div>
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/gens/Skyppy4.jpg" alt="" height="300" width="268">
+                    <img src="img/gens/Skyppy5.jpg" alt="" height="300" width="258">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>Alexandre</span>

@@ -587,7 +587,7 @@ h3 {
     width      : 100%;
     top        : 0;
     z-index    : 9;
-    padding-top: 28px;
+    padding: 10px 0;
     background: #00000050;
 }
 
@@ -687,10 +687,9 @@ h3 {
 }
 
 .header-area .main-header-area .book_room .social_links ul li a {
-    color    : #A8A7A0;
+    color    : #eee;
     margin   : 0 10px;
     font-size: 26px;
-    text-shadow : 0 0 1px #000;
 }
 
 .header-area .main-header-area .book_room .social_links ul li a:hover {
@@ -747,7 +746,7 @@ h3 {
     padding       : 0px 0px 10px 0px;
     font-family   : sans-serif;
     position      : relative;
-    text-shadow   : 0 0 1px #000;
+    letter-spacing: 1px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -908,7 +907,7 @@ h3 {
 }
 
 .slider_bg_1 {
-    background-image: url(../img/banner/amphi.jpg)
+    background-image: url(../img/banner/amphi_optimized.jpg)
 }
 
 .slider_bg_2 {
