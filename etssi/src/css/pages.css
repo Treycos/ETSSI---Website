@@ -1,0 +1,9 @@
+.navigation a {
+    transition: .3s;
+    color: white;
+    border-bottom: solid transparent 2px;
+}
+
+.navigation a:hover {
+    border-bottom: solid #fff 2px;
+}

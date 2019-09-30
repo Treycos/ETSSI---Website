@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.logo-img img {
+  width: 150px;
+  height: auto;
+}
+
+.footer_logo {
+  width: 100px;
+  height: auto;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.mapouter iframe {
+  width: 100%;
+}
+
+button {
+  padding    : 12px 26px;
+  font-size  : inherit;
+  font-weight: inherit;
+  border     : 1px solid transparent;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button.filled {
+  background : #de1818;
+  color      : #fff;
+}
+
+button.filled:hover {
+  background : #fff;
+  color: #de1818;
+  border: 1px solid #de1818;
+}
+
+button.outlined {
+  background : #de1818;
+  padding    : 12px 26px;
+  font-size  : inherit;
+  font-weight: inherit;
+  border     : 1px solid transparent;
+  color      : #fff;
+  cursor: pointer;
+}
+
+button.outlined:hover {
+  background : #fff;
+  color: #de1818;
+  border: 1px solid #de1818;
+}
+
+input {
+  background : #fff;
+  padding    : 12px 26px;
+  font-size  : inherit;
+  font-weight: inherit;
+  border     : 1px solid transparent;
+  color      : #de1818;
+  transition: .3s;
+}
+
+input:hover {
+  border: 1px solid #de1818;
+}
+
+li {
+  list-style: none;
+}
+
+svg {
+  transition: .3s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .3s;
+  border-bottom: solid transparent 2px;
+}

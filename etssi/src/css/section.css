@@ -1,0 +1,20 @@
+.section {
+    padding: 10vh;
+}
+
+.title-area {
+    width: 100%;
+    text-align: center;
+}
+
+.title-area > span {
+    color: #de1818;
+    font-size: 14px;
+}
+
+.title-area > h3 {
+    color: #1F1F1F;
+    font-size: 46px;
+    font-weight: 400;
+    margin: 10px 0;
+}
