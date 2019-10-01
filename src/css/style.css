@@ -58,7 +58,8 @@ body {
 }
 
 a,
-.button {
+.button,
+button {
     -webkit-transition: .3s;
     -moz-transition   : .3s;
     -o-transition     : .3s;
@@ -726,7 +727,7 @@ h3 {
     margin-left: 30px
 }
 
-.header-area .main-header-area .book_room .book_btn a {
+.header-area .main-header-area .book_room .book_btn button {
     background : #de1818;
     padding    : 12px 26px;
     font-size  : 14px;
@@ -735,10 +736,11 @@ h3 {
     color      : #fff
 }
 
-.header-area .main-header-area .book_room .book_btn a:hover {
+.header-area .main-header-area .book_room .book_btn button:hover {
     background: #fff;
     color     : #de1818;
     border    : 1px solid #de1818;
+    cursor: pointer;
 }
 
 .header-area .main-header-area .main-menu {
@@ -1602,7 +1604,7 @@ h3 {
     }
 }
 
-.forQuery .Query_border .phone_num a {
+.forQuery .Query_border .phone_num button {
     background   : #de1818;
     color        : #fff;
     padding      : 12px 53px;
@@ -1612,10 +1614,11 @@ h3 {
     border       : 1px solid transparent
 }
 
-.forQuery .Query_border .phone_num a:hover {
+.forQuery .Query_border .phone_num button:hover {
     color     : #de1818;
     border    : 1px solid #de1818;
-    background: #fff
+    background: #fff;
+    cursor: pointer;
 }
 
 .instragram_area {
