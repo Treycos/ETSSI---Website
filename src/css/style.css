@@ -1,3 +1,15 @@
+#bg-img
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    max-height: 100vw;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
 .logo-img img {
     width: 150px;
     height: auto;
@@ -588,7 +600,7 @@ h3 {
     top        : 0;
     z-index    : 9;
     padding: 10px 0;
-    background: #00000050;
+    background: #000;
 }
 
 @media (max-width: 767px) {
@@ -690,6 +702,20 @@ h3 {
     color    : #eee;
     margin   : 0 10px;
     font-size: 26px;
+}
+
+.header-area .main-header-area .book_room .social_links ul li a path,
+.header-area .main-header-area .book_room .social_links ul li a rect,
+.footer .social_links ul li a path,
+.footer .social_links ul li a rect {
+    fill    : #ddd;
+}
+
+.header-area .main-header-area .book_room .social_links ul li a path:hover,
+.header-area .main-header-area .book_room .social_links ul li a rect:hover,
+.footer .social_links ul li a path:hover,
+.footer .social_links ul li a rect:hover {
+    fill    : #fff;
 }
 
 .header-area .main-header-area .book_room .social_links ul li a:hover {
@@ -924,6 +950,7 @@ h3 {
 
 .slider_area .single_slider {
     height           : 100vh;
+    max-height       : 100vw;
     background-size  : cover;
     background-repeat: no-repeat
 }
@@ -936,13 +963,13 @@ h3 {
     letter-spacing: 2px;
     font-weight   : 400;
     margin-bottom : 4px;
-    text-shadow   : 0 0 5px #333;
+    text-shadow   : 0 0 5px black, 0 0 2px black;
 }
 
 @media (max-width: 767px) {
     .slider_area .single_slider .slider_text h3 {
         font-size     : 33px;
-        letter-spacing: 3px
+        letter-spacing: 2px
     }
 }
 
@@ -955,7 +982,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
     .slider_area .single_slider .slider_text h3 {
         font-size     : 35px;
-        letter-spacing: 3px
+        letter-spacing: 2px
     }
 }
 
@@ -965,7 +992,7 @@ h3 {
     color        : #ffffff;
     margin-bottom: 0;
     margin-top   : 0;
-    text-shadow  : 0 0 10px black, 0 0 3px black;
+    text-shadow  : 0 0 5px black, 0 0 2px black;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
