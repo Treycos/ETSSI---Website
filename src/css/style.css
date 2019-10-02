@@ -1869,10 +1869,6 @@ h3 {
     }
 }
 
-.footer a {
-    color: #de1818;
-}
-
 .footer .social_links {
     text-align: right;
 }
@@ -3981,11 +3977,11 @@ h6 {
 .blog_right_sidebar .post_category_widget .cat-list li a {
     font-size  : 14px;
     line-height: 20px;
-    color      : #888888
+    color      : #888888;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li a p {
-    margin-bottom: 0px
+    margin-bottom: 0px;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li+li {
@@ -3995,7 +3991,7 @@ h6 {
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
     justify-content: center;
     align-self     : center;
-    padding-left   : 20px
+    padding-left   : 20px;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
