@@ -4,6 +4,8 @@ ErrorDocument 404 /404.php
   ExpiresActive On
 
   # Images
+  AddType image/x-icon .ico
+  
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/gif "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
