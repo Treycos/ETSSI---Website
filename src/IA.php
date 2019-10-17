@@ -23,24 +23,16 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="about_thumb d-flex">
                         <div class="img_1">
-                            <img src="img/IA/Influence of AI on the IS 2 - blurb.jpg" alt="">
-                        </div>
-                        <div class="img_2">
-                            <img src="img/about/affiche_conference_optimized.jpg" alt="">
+                            <img src="img/IA/ia.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">
                     <div class="about_info">
                         <div class="section_title mb-20px">
-                            <span>L'intelligence artificielle</span>
-                            <h3>The impact of Artificial intelligence on the tools and methods <br>
-                                of the Information system in the upcoming years</h3>
+                            <h3>L'intelligence artificielle, votre nouveau collègue</h3>
                         </div>
-                        <p>Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare
-                            dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque
-                            sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p>
-                        <a href="#" class="line-button">Plus de détails</a>
+                        <p>Les entreprises évoluent constamment pour répondre à la demande et la compétition, et l'IA semble est un outil clé de cette croissance. Comment cette technologie va permettre aux entreprises de mieux répondre aux besoins de la population ? Dans quels domaines va-t-elle jouer un rôle important ? Vous découvrirez les enjeux de la mise en place de l'IA dans des domaines tels que la sécurité, la production, le support et service client, ainsi que les opérations commerciales.</p>
                     </div>
                 </div>
             </div>

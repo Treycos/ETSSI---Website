@@ -11,7 +11,7 @@
                             44600 Saint-Nazaire, France</p>
                         <a href="https://www.google.com/maps/place/Exia.cesi/@47.2526646,-2.2585964,18.75z/data=!4m13!1m7!3m6!1s0x480568940c8bdc39:0xd7d9fb788944a2f9!2sBoulevard+de+l'Universit%C3%A9,+44600+Saint-Nazaire!3b1!8m2!3d47.253238!4d-2.264146!3m4!1s0x48056893813bcac7:0xa1e85733e72751a6!8m2!3d47.2525954!4d-2.2579265"
                             class="line-button">
-                            Direction
+                            Direction Maps
                         </a>
                     </div>
                 </div>
@@ -42,10 +42,6 @@
                         <h3 class="footer_title">
                             Tombola
                         </h3>
-                        <form action="#" class="newsletter_form">
-                            <input type="text" placeholder="Votre nom">
-                            <button type="submit">Participer</button>
-                        </form>
                         <p class="newsletter_text">Les lots seront remis à la fin de la conférence</p>
                     </div>
                 </div>
@@ -64,7 +60,7 @@
                             <ul>
                                 <li>
                                     <a href="https://facebook.com/lexiaconference/">
-                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                             width="24px" height="24px" viewBox="0 0 60.734 60.733" style="enable-background:new 0 0 60.734 60.733;"
                                             xml:space="preserve">
                                             <g>
@@ -77,7 +73,7 @@
                                 </li>
                                 <li>
                                     <a href="https://twitter.com/ConferenceExia">
-                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                             width="24px" height="24px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                                             <g>
                                                 <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
@@ -94,7 +90,7 @@
                                 </li>
                                 <li>
                                     <a href="https://instagram.com/lexiaconference/?igshid=6yipn5szpsaf">
-                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                             width="24px" height="24px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;"
                                             xml:space="preserve">
                                             <g>
@@ -114,7 +110,7 @@
                                 </li>
                                 <li>
                                     <a href="https://linkedin.com/company/l-exia-conf%C3%A9rence/about/">
-                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                             width="24px" height="24px" viewBox="0 0 438.536 438.535" style="enable-background:new 0 0 438.536 438.535;"
                                             xml:space="preserve">
                                             <g>
@@ -139,3 +135,40 @@
         </div>
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script>
+    (function ($) {
+        "use strict";
+
+        $(window).on('scroll', function () {
+            var scroll = $(window).scrollTop();
+            if (scroll < 400) {
+            $("#sticky-header").removeClass("sticky");
+            $('#back-top').fadeIn(500);
+            } else {
+            $("#sticky-header").addClass("sticky");
+            $('#back-top').fadeIn(500);
+            }
+        });
+
+        var menu = $('ul#navigation');
+        if(menu.length){
+            menu.slicknav({
+                prependTo: ".mobile_menu",
+                closedSymbol: '+',
+                openedSymbol:'-'
+            });
+        };
+
+    })(jQuery);
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75411913-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-75411913-2');
+</script>

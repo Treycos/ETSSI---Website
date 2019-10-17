@@ -23,25 +23,16 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="about_thumb d-flex">
                         <div class="img_1">
-                            <img src="img/offers/Privacy.jpeg" alt="">
-                        </div>
-                        <div class="img_2">
-                            <img src="img/about/affiche_conference_optimized.jpg" alt="">
+                            <img src="img/privacy/rgpd.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">
                     <div class="about_info">
                         <div class="section_title mb-20px">
-                            <span>privacy</span>
-                            <h3>Helping companies understand and apply data
-                                private protection laws.</h3>
+                            <h3>Données personnelles, la loi vous protège-t-elle ?</h3>
                         </div>
-                        <p>Nowadays, in a world marked by digital transition, the protection and management of personal data has become a priority for our society.
-                            Personal data is information that relates to a natural person, identified directly or indirectly. It can be a name, a photograph, a phone number or an email.
-                            Some data are sensitive as they relate to information that may give rise to discrimination or prejudice.
-                            </p>
-                        <a href="#" class="line-button">Plus de détails</a>
+                        <p>Depuis votre smartphone fabriqué en Asie jusqu'à votre compte Netflix made in USA, vos données personnelles sont utilisées et échangées aux quatre coins du monde, mais sont-elles protégées ? Les lois sont-elles efficaces pour vous protéger des entités mal intentionnées et comment les entreprises sont-elles sensées s'y conformer ? Cette présentation va décrypter ce système motivé par la donnée et tenter de vous guider au travers des lois existantes et à venir dans les trois prochaines années.</p>
                     </div>
                 </div>
             </div>
