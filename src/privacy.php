@@ -4,7 +4,7 @@
 <html class="no-js" lang="fr">
 
 <head>
-    <title>Exia Conférence - Données Personnelles</title>
+    <title>ETSSI Conférence - Données Personnelles</title>
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -4,12 +4,12 @@
 <html class="no-js" lang="fr">
 
 <head>
-    <title>Exia Conférence - Intelligence Artificielle</title>
+    <title>ETSSI Conférence - Intelligence Artificielle</title>
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/cesi_favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style_minified.css">
